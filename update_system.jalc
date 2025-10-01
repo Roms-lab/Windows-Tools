@@ -1,0 +1,13 @@
+display --- Starting System and Python Updates ---
+wait 2
+display Checking for Windows updates...
+powershell
+sconfig
+exit
+wait 2
+display Checking for Python package updates...
+pip install --upgrade pip
+pip install --upgrade setuptools
+pip install --upgrade wheel
+display --- Updates complete. ---
+wait 3
