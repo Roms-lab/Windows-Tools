@@ -3,7 +3,7 @@ wait 2
 display Checking for Windows updates...
 powershell
 sconfig
-exit
+exitps
 wait 2
 display Checking for Python package updates...
 pip install --upgrade pip
