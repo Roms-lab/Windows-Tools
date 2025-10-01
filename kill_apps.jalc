@@ -1,0 +1,8 @@
+display --- Process Management ---
+display Use this script to terminate a running process.
+wait 2
+display Listing all running processes...
+ps
+display Enter the Process ID (PID) to kill.
+display The script will pause here until you enter the "kill [PID]" command manually.
+pause
